@@ -1,7 +1,7 @@
 .header {
   justify-content: space-between;
   align-items: center;
-  padding: 6rem 0px 4rem;
+  /* padding: 6rem 0px 4rem; */
 }
 .header-logo {
   height: 6.6rem;
@@ -9,6 +9,7 @@
 .header-nav-item {
   font-size: 1.8rem;
   font-weight: 600;
+  z-index: 100000;
   margin: 0px 2rem 0px 3.6rem;
 }
 .mobile-menu-wrapper {
@@ -16,7 +17,8 @@
 }
 .mobile-menu {
   position: fixed;
-  background-color: var(--bg-black);
+  /* background-color: var(--bg-black); */
+  background: #000;
   display: flex;
   flex-direction: column;
   transform: translateX(100%);
@@ -24,6 +26,7 @@
   width: 100vw;
   text-align: left;
   padding: 3.2rem;
+  color: #fff;
   top: 0;
   left: 0;
   transition: tranform 0.3s ease-in-out 0s;
@@ -42,7 +45,7 @@
 }
 .mobile-nav-item {
   padding: 1.5rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-color: var(--bg-light-gray);
   border: 1px solid transparent;
   border-radius: 1.5rem;
