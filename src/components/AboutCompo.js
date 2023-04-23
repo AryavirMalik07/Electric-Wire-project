@@ -20,7 +20,7 @@ const AboutCompo = ({ list }) => {
       </div>
       <div className="flex flex-wrap items-center justify-center gap-12 ">
         {list.map((props) => (
-          <div className="flex items-center gap-8 ">
+          <div className="flex items-center gap-8  ">
             <img
               className="w-28 h-28 rounded-full"
               src={props.cover}
